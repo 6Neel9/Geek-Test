@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body background="https://wallpaperaccess.com/full/444914.jpg" style="color: white;">
+        <h1 align="center" style="color: rgba(249, 248, 255, 0.749)"><u>Geekster Application Form</u></h1>
+        <hr/>
+        <form align="center">
+            <h3>Full name</h3>
+            <input type="text" name = "full_name" id="uname" placeholder="Enter your Name"/>
+            <h3>Enter Email</h3>
+            <input type="email" name = "Email" id="uemail" placeholder="Enter Email" required>
+
+            <h3>Enter Password</h3>
+            <input type="password" name = "Password" id="upassword" placeholder="Enter your Password"  minlength="6"><br/><br/>
+            <input type="radio"  id="urobo" value="Not a Robot"  ><br/>
+            <img src="https://images.unsplash.com/photo-1570863102242-7d03ca0f4bd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwZmxhZ3xlbnwwfHwwfHw%3D&w=1000&q=80" height="80px" width="100px" />
+            <h3>Select Captcha</h3><strong>(If you are not a Robot)</strong>
+            <br/>
+            <br/>
+            <input type="checkbox" required/> By signing up, you agree to the Terms and Conditions of Geekster*.
+            <br/>
+            <br/>
+            <input type="button" value="submit" onclick="send()" />
+            <hr/>
+
+        </form>
+    </body>
+    <script>
+        var uname = document.querySelector("#uname");
+        var uemail = document.querySelector("#uemail");
+        var upassword = document.querySelector("#upassword");
+        var umale = document.querySelector("#umale");
+        var ufemale = document.querySelector("#female");
+        function send() {
+        console.log(uname.value);
+        console.log(uemail.value);
+        console.log(upassword.value);
+        console.log(urobo.value);
+        
+
+        }
+    </script>
+</html>
