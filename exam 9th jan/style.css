@@ -1,0 +1,71 @@
+.head {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+.first{
+    position: relative;
+    top: -18px;
+}
+  
+.site-identity h1 {
+    font-size: 1.5em;
+    display: inline;
+}
+  
+.site-identity img {
+    max-width: 100px;
+}
+.tags{
+    float: right;
+    margin-top: -45px;
+    color: grey;
+}
+.body1st{
+    font-size: 45px;
+    margin-top: 35px;
+    color: rgb(39, 34, 34);
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.body2nd {
+    font-size: 18px;
+    margin-top: 25px;
+    color: grey;
+    margin-left: 100px;
+}
+input[type="button"]{
+    background-color: rgb(25, 118, 155);
+    color: white;
+    height: 50px;
+    width: 160px;
+    border: transparent;
+    font-size: 17px;
+    border-radius: 5px;
+}
+input[type="button"]:hover{
+    background-color: rgb(28, 130, 130);
+}
+input[type="text"]{
+    height: 45px;
+    width: 250px;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.body2nd a{
+    color: rgb(61, 116, 199);
+    font-size: 15px;
+}
+.body2nd span{
+    font-size: 15px;
+}
+.body3rd{
+    float: right;
+    position: relative;
+    top: -470px;
+    right: 500px;
+    text-align: center;
+}
