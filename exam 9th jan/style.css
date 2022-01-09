@@ -56,7 +56,7 @@ input[type="text"]{
     font-size: 17px;
 }
 input[type="text"]:focus{
-    border-color:#4285F4;
+    border-color: #4285F4;
 }
 .body2nd a{
     color: rgb(61, 116, 199);
