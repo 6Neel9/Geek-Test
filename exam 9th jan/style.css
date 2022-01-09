@@ -55,6 +55,9 @@ input[type="text"]{
     border-radius: 5px;
     font-size: 17px;
 }
+input[type="text"]:hover{
+    border-color:#4285F4;
+}
 .body2nd a{
     color: rgb(61, 116, 199);
     font-size: 15px;
