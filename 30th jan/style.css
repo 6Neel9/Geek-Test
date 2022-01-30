@@ -1,0 +1,40 @@
+#search,
+#btn {
+  padding: 5px;
+}
+td {
+  padding: 5px;
+}
+#search{
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#btn{
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: peru;
+}
+table {
+  text-align: center;
+  margin: auto;
+  background-image: linear-gradient(to right,#f35, #43e);
+  color: white;
+}
+body {
+  background-image: linear-gradient(to right,blue,rgb(30, 255, 0));
+}
+#con12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+td {
+  padding: 10px;
+}
+table,
+tr,
+td {
+  border: 2px solid white;
+}
