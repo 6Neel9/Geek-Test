@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+      text-align: center;
+      color: wheat;
+  }
+  #section {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+  }
+  #header,
+  #descripton,
+  #addBlog
+   {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  #header{
+      background-color: transparent;
+      font-style: italic;
+  }
+  #header::placeholder{
+    font-size: 20px;
+  }
+  #descripton{
+      height: 100px;
+      background-color: transparent;
+      font-style: italic;
+  }
+  #descripton::placeholder{
+      font-size: 40px;
+  }
+  #addBlog{
+    width: 70px;
+    height: 40px;
+    background-color: orange;
+    color: wheat;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blogContainer {
+    border: 1px solid transparent;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .para::-webkit-scrollbar {
+    display: none; /* for chrome */
+  }
+  .para {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+  }
+  .buttonsConatiners {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: transparent;
+    background: rgb(13, 99, 110);
+    color:white;
+    font-weight: bold;
+  }
+  .headers {
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: monospace;
+    overflow: hidden;
+  }
+  body {
+    background-image: url("https://images.pexels.com/photos/3566120/pexels-photo-3566120.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1260");
+  }
+  
